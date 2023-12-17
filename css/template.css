@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 20px;
+    margin-top: 20px;
+   display: inline-block;
+    
+}
+.navbar{
+    float:right;
+}
+.navbar ul{
+    font-size: 20px;
+    margin-right: 220px;
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+    padding: 15px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar2{
+    float: right;
+}
+.navbar2 ul{
+    font-size: 20px;
+   
+}
+
+.navbar2 ul li{
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+}
+.navbar2 ul li button{
+    width: 75px;
+    height: 30px;
+    background-color: blanchedalmond;
+    font-size: 17.5px;
+    transition: transform 1s;
+   
+}
+.navbar2 ul li button:hover{
+    background-color: rgb(137, 251, 251);
+}
+.banner-section{
+    width: 100%;
+    height: 500px;
+    /*background-image: url(../images/backbanner.jpg);*/
+    background-color: cadetblue;
+    display: flex;
+}
+.banner-section .left{
+    flex-basis: 50%;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.banner-section .left h5{
+    color: brown;
+    font-size: 25px;
+}
+.banner-section .left h2{
+    margin-top: 10px;
+    font-size: 40px;
+   
+}
+.banner-section .left h4{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.banner-section .left button{
+    height: 34px;
+    width: 70px;
+    background-color:bisque;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.banner-section .left button:hover{
+    background-color: aquamarine;
+    
+}
+.banner-section img{
+    height: 450px;
+    width: 530px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.banner-section2{
+    width: 100%;
+    height:470px;
+    display: flex;
+    /*background-image: url(../images/rm222batch5-mind-21.jpg);*/
+    background-color: rgb(91, 163, 225); 
+}
+.banner-section2 img{
+    height:450px;
+    width:530px;
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.banner-section2 .right{
+    flex-basis: 55%;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+.banner-section2 .right h5{
+    font-size: 25px;
+}
+.banner-section2 .right h3{
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.banner-section2 .right h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.banner-section3{
+    height: 600px;
+    width:100%;
+    background-image: url(../images/backbanner.jpg);
+    display:flex;
+    
+}
+.banner-section3 h5{
+    margin-top: 80px;
+    margin-left:140px;
+    position: absolute;
+    font-size: 25px;
+    
+}
+.banner-section3 h2{
+    margin-top: 110px;
+    margin-left: 140px;
+    position: relative;
+    font-size: 30px;
+}
+
+.banner-section3 .container{
+    padding-top: 220px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 8px;
+    margin-left: -350px;
+    padding-bottom: 50px;
+    
+   
+    
+}
+.banner-section3 .container .box{ 
+    color: antiquewhite;
+    padding: 25px;
+   border: 2px solid antiquewhite;
+   box-shadow: 5px 5px;
+   font-size: 30px;
+   text-align: center;
+   line-height: 30px;
+ 
+}
+.banner-section3 .container .box div{
+    font-size: 25px;
+    color:antiquewhite;
+}
+.banner-section3 .img img{
+    height: 450px;
+    width: 500px;
+    flex-basis: 50%;
+    border-radius: 20%;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+.fourth{
+    height: 750px;
+    width: 100%;
+    background-color: rgba(244, 244, 244, 0.952);
+}
+.banner-section4{
+    padding-top: 30px;
+text-align: center;
+}
+.banner-section4 h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+.container2{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: repeat(2, 250px);
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+}
+.item i{
+    margin-top: 40px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    background-color: black;
+    padding: 12px;
+}
+.item h4{
+    padding-top: 20px;
+}
+.item p{
+    padding-top: 10px;
+}
+.item{
+    background-color: white;
+    border: 1px solid white solid rgb(251, 251, 251);
+    text-align: center;
+    line-height: 20px;
+}
+.fifth{
+    height: 600px;
+    width: 100%;  
+}
+.banner-section5{
+    padding-top: 30px;
+    text-align: center;
+}
+.banner-section5 h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+.con3{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 280px;
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+}
+.secit{
+    background-color: rgba(236, 236, 236, 0.886);
+    border: 1px solid white solid rgb(0, 0, 0);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.secit img{
+    border-radius: 100%;
+    height: 280px;
+    width: 280px;
+}
+.sixth{
+    height: 600px;
+    width: 100%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.banner-section6{
+     padding-left: 150px;
+}
+.banner-section6 span{
+    color: white;
+    font-size: 15px;
+}
+.banner-section6 h2{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 15px;
+ }
+ .banner-section6 h6{
+    padding-top: 100px;
+}
+.banner-section6 h5{
+    color: rgb(251, 247, 247);
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.box6{
+    margin-top: 30px;
+    height: 200px;
+    width: 400px; 
+    border: 2px solid black;
+    background-color: rgba(129, 7, 86, 0.105);
+}
+.box6 h5{
+    padding-top: 40px;
+    color: white;
+    padding-left: 5px;
+}
+.box7{
+    margin-top: 8px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white solid white;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 125px;
+}
+
+.box7 h4{
+     color: white; 
+    text-transform: capitalize;
+}
+.container4{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: repeat(3,150px);
+    gap: 8px;
+    padding-top: 65px;
+    padding-right: 150px;
+}
+.it{ 
+        color: white;
+        padding: 25px;
+        border: 2px solid  black;
+        box-shadow: 5px 5px ;
+        font-size: 30px;
+        text-align: center;
+        line-height: 20px;
+    }
+.it i{
+    padding-top:10px ;
+    color: rgba(255, 248, 201, 0.85);
+}
+.it div{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.seven{
+    background-color: #ebebeb;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    }
+.left{
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.left h6{
+    padding-top: 30px;
+    color: red;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.left span{
+    color: black;
+    padding-left: 8px;
+    font-size: 10px;
+}
+.left h2{
+    text-transform: capitalize;
+padding-top: 20px;
+}
+.box9{
+    margin-top: 45px;
+    height: 150px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.box9 h4{ 
+    padding-top: 10px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.box9 p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.box9 i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.box10{
+    margin-top: 15px;
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+}
+.box10 h4{
+   text-transform: capitalize;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.box10 i{
+    position: absolute;
+       top: 15px;
+       right: 15px;
+}
+.box11{  
+    margin-top: 15px;
+    height: 40px;
+    width: 500px;
+background-color: white;
+position: relative;
+}
+.box11 h4{
+padding-left: 20px;
+padding-top: 10px;
+text-transform: capitalize;
+}
+.box11 i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.box8{
+    border: 1px solid white solid white;
+    height: 380px;
+    width: 390px;
+    background-color: white;
+    margin-right: 150px;
+    margin-top: 120px;
+}
+.box8 h3{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.box8 h5{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.box8 input{
+    text-transform: capitalize;
+    padding: 10px 140px 10px 20px;
+    margin: 10px 10px 10px 30px;
+    background-color: rgb(241, 241, 241) ;
+}
+.box8 button{
+    cursor: pointer;
+    background-color: orangered;
+    width: 330px;
+    height: 40px;
+    text-transform: capitalize;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+    color: white;
+}
+.eight{
+    height: 640px;
+    width: 100%; 
+    background-color: rgb(91, 163, 225); 
+}
+.banner-section8{
+    padding-top: 30px;
+    text-align: center;
+}
+.banner-section8 h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+.con4{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.secitem{
+    background-color: rgba(253, 253, 253, 0.965);
+    border: 1px solid white solid rgb(249, 249, 249);
+    box-shadow: 10px 10px  rgba(244, 244, 244, 0.965);;
+    text-align: center;
+    line-height: 40px;
+    transition: transform 1s ease;
+}
+.eight .banner-section8 .secitem:hover{transform: scale(1.1);}
+.secitem img{
+  height: 230px;
+  width: 280px;
+  padding: 10px 10px;
+}
+.nine{
+    height: 700px;
+    width: 100%;
+    background-color: cadetblue;  
+}
+.logo2 b{
+  padding: 30px 220px;
+  font-size: 35px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 400px;
+    color: white;
+    margin: 130px 200px 50px 230px; 
+}
+.box12{}
+.box12 h3{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.box12 p{
+    padding-top: 30px;
+}
+.box13{
+    padding-left: 20px;
+}
+.box13 h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.box13 ul{
+    padding-top: 30px;
+}
+.box13 ul li{
+    text-transform: capitalize ;
+    list-style: none;
+    padding: 7px;
+}
+.box14{
+    padding-left: 20px;
+}
+.box14 span{color: white;
+    padding-top: 20px;
+}
+        
+.box14 h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.box14 h5{
+    padding-top: 30px;
+
+}
+.box15{ 
+    padding-left: 20px;
+}
+.box15 h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.box15 input[type="text"]{
+    margin-top: 30px;
+    border: 1px solid white;
+    padding:10px 45px 10px 10px ;
+    color: white;
+    background-color:rgb(234, 205, 92);  
+    margin-bottom: 10px;
+}
+.box15 input::placeholder{
+    color: white;
+}
+.box15 button{
+    border: 1px solid white;
+    width: 225px;
+    height: 40px;
+    color: white;
+    background-color:rgb(234, 205, 92);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.foote2{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    gap: 40px;
+}
+.foote2 h5{
+    font-size: 15px;
+}
+.foote2 ul{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    gap: 30px;
+}
+.foote2 ul li{
+    text-transform: capitalize;
+    list-style: none;
+}
+.nine ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
